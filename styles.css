@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+    gap: 20px;
+    background: fixed;
+    background-color: blue;
+    height: 57px;
+}
+.header_search{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.header_right{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+    color: #FEFEFF;
+    
+}
+.header_right h2{
+    font-weight: normal;
+    font-size: large;
+
+}
+.search form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    
+    
+}
+.logo h1{
+    color: #FEFEFF;
+}
+.logo p{
+    color: #FEFEFF;
+}
+.logo p span{
+    color: #EBE351;
+}
+.login{
+    padding: 10px;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+
+button{
+    background-color: #FEFEFF;
+}
+.search button{
+    width: 50px;
+    padding: 5px;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    color: #4275E8;
+}
+.login{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.login button{
+    width: 90px;
+    padding: 5px;
+    margin: 0;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    font-weight: bolder;
+}
+main{
+    position: relative;
+    top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .container img{
+    width: 100px;
+    height: 100px;
+}
+#item{
+    height: 75px;
+}
+.container_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 20px;
+}
+.container_2 h6{
+    font-size: 100;
+}
